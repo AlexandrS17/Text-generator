@@ -73,7 +73,7 @@ def produce_txt(*f):
         data += txt
     return data
 
-
+# можно убрать из строчки ниже некоторые файлы, можно загрузить и добавить
 all_files = WordsFill(produce_txt(file1, file2, file3))
 
 for _ in range(5):
